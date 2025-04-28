@@ -1,7 +1,7 @@
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { FaFacebookF, FaGithub, FaLinkedinIn, FaReact } from "react-icons/fa";
-import { SiTailwindcss, SiFirebase, SiJavascript } from "react-icons/si";
+import { FaFacebookF, FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { SiDart, SiGooglemaps , SiFirebase, SiFlutter } from "react-icons/si";
 
 const socialMediaLinks = [
   { icon: <FaFacebookF />, url: "https://web.facebook.com/profile.php?id=100088881112750", id: 1 },
@@ -13,8 +13,8 @@ const LeftBanner = () => {
   const [text] = useTypewriter({
     words: [
       "Professional Coder.",
-      "React Native Developer.",
-      "Full Stack Developer.",
+      "Flutter Developer.",
+      "Full Stack App Developer.",
     ],
     loop: true,
     typeSpeed: 50,
@@ -41,8 +41,8 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          Passionate full-stack Web & Mobile App developer with a proficiency for crafting
-          intuitive user experiences. Proficient in <span className="text-designColor font-bold">React and React Native</span>, I
+          Passionate full-stack Mobile App developer with a proficiency for crafting
+          intuitive user experiences. Proficient in <span className="text-designColor font-bold">Dart & Flutter</span>, I
           specialize in building robust web and mobile applications.
         </p>
       </div>
@@ -67,13 +67,13 @@ const LeftBanner = () => {
           </h2>
           <div className="flex gap-4">
             <span className="bannerIcon">
-              <FaReact />
+              <SiDart />
             </span>
             <span className="bannerIcon">
-            <SiJavascript />
+            <SiFlutter />
             </span>
             <span className="bannerIcon">
-              <SiTailwindcss />
+              <SiGooglemaps  />
             </span>
             <span className="bannerIcon">
             <SiFirebase />

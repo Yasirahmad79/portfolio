@@ -24,7 +24,7 @@ const ContactLeft = () => {
       <div className="flex flex-col gap-4">
         <h3 className="text-3xl font-bold text-white">Yasir Ahmad</h3>
         <p className="text-lg font-normal text-gray-400">
-          Mobile Application (React Native Developer)
+          Mobile Application Developer (Dart & Flutter)
         </p>
         <p className="text-base text-gray-400 tracking-wide">
         Dedicated mobile app developer with over 1+ years of experience in crafting innovative and user-friendly  Mobile applications.
